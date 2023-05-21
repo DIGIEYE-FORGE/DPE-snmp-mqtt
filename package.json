@@ -1,0 +1,33 @@
+{
+  "name": "dpe-snmp-mqtt",
+  "version": "0.0.1",
+  "description": "digieye platform edge snmp mqtt edge is a service to get data from snmp protocol and send it to digieye platfotm using mqtt protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIGIEYE-FORGE/DPE-snmp-mqtt.git"
+  },
+  "keywords": [
+    "snmp",
+    "mqtt"
+  ],
+  "author": "Yassine OUARRAK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DIGIEYE-FORGE/DPE-snmp-mqtt/issues"
+  },
+  "homepage": "https://github.com/DIGIEYE-FORGE/DPE-snmp-mqtt#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "env-var": "^7.3.1",
+    "mqtt": "^4.3.7",
+    "net-snmp": "^3.9.3",
+    "rxjs": "^7.8.1",
+    "winston": "^3.8.2"
+  }
+}
