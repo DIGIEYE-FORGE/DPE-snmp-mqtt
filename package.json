@@ -24,6 +24,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "dotenv-safe": "^8.2.0",
     "env-var": "^7.3.1",
     "mqtt": "^4.3.7",
     "net-snmp": "^3.9.3",
