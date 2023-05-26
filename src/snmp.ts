@@ -1,4 +1,4 @@
-import { Session } from "net-snmp";
+const { Session } = require("net-snmp");
 
 export function getDataFromSNMP(
   host: string,
@@ -8,7 +8,7 @@ export function getDataFromSNMP(
   return new Promise((resolve, reject) => {
     const session = new Session({ host, community });
 
-    session.get({ oid }, (error, varbinds) => {
+    session.get({ oid }, (error: any, varbinds: any) => {
       if (error) {
         reject(error);
       } else {

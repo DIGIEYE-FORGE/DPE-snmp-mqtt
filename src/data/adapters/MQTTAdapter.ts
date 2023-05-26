@@ -1,4 +1,4 @@
-import { MQTTRepository } from "@repositories/MQTTRepository";
+import { MQTTRepository } from "./../repositories/MQTTRepository";
 
 export class MQTTAdapter {
   private mqttRepository: MQTTRepository;

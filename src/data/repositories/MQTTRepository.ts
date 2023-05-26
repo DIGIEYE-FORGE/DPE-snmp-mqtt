@@ -1,4 +1,4 @@
-import MQTTConfig from "@config/MQTTConfig";
+import MQTTConfig from "./../../infrastructure/config/MQTTConfig";
 import { connect, MqttClient } from "mqtt";
 
 export class MQTTRepository {
